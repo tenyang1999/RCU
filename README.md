@@ -4,30 +4,9 @@
 - [Tzu-Hsuan Yang]() (tzuhsuan1010@gmail.com)
 
 ## Overview 
-This repository contains the code to preprocess datasets
-<p align="center">
-    <img src="overall_framework.png" width="1000" align="center">
-</p>
-
-## Datasets
-Please run the following command to do train-test split. 
-preprae_dataset.py for MovieLen100K, Douban, MovieLens1M. 
-preprae_dataset_deg.py for AmazonBook. 
-```
-preprae_dataset.py
-preprae_dataset_deg.py
-```
-## Experimental setups-
-
-```python
-pip install numpy 
-pip install pandas
-pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu117
-```
-
-## 使用方法
-- ADEdataset.py為ADE的dataset讀取型態
-- VOC_detect.ipynb為利用VOC進行Object Detection
-- ADE_seg.ipynb為利用ADE進行Semantic Segmentation
-- dual_task.ipynb為將兩者進行整合同時訓練
-- utils為放置訓練以及預測會用到的工具們
+1. TAAI申請表：裡面擁有詳細的個人資訊以及老師資訊，其中提到之相關論文投稿部分放在第五項
+2. 畢業論文之電子檔：詳細的解說了整篇論文的概念以及做的實驗
+3. RCU簡報：詳細的說明計畫發起的緣由以及期望解決的目標，更提到使用的方法及結果
+4. 畢業證書
+5. RCU-recommendation-contrastive-unlearning-main：論文中的Code，其中擁有獨立的README也可於[RCU](https://github.com/tenyang1999/RCU-recommendation-contrastive-unlearning.git) GitHub中查看
+6. 相關論文投稿：When Contrastive Learning Meets Graph Unlearning: Graph Contrastive Unlearning for Link Prediction. IEEE International Conference on Big Data (IEEE-BigData). Sorrento, Italy, Dec.15-18, 2023. 
