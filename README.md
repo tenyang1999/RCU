@@ -6,7 +6,7 @@
 ## Overview 
 This repository contains the code to preprocess datasets
 <p align="center">
-    <img src="images/fig1.png" width="1000" align="center">
+    <img src="overall_framework.png" width="1000" align="center">
 </p>
 
 ## Datasets
